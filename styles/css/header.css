@@ -121,7 +121,7 @@
   }
 }
 
-.projects__item-button {
+.header__item-button {
   font-weight: 700;
   background-color: var(--button-color);
   border-radius: var(--border-radius);
@@ -131,21 +131,21 @@
   transition: var(--all-transitions);
 }
 
-.projects__item-button--bg-gold {
+.header__item-button--bg-gold {
   background-color: #ffffff;
 }
 
-.projects__item-button--bg-gold-2 {
+.header__item-button--bg-gold-2 {
   background-color: #ee9b01;
 }
 
-.projects__item-button--bg-gold-2:hover {
+.header__item-button--bg-gold-2:hover {
   background-color: var(--button-color-active);
 }
-.projects__item-button--bg-gold:hover {
+.header__item-button--bg-gold:hover {
   background-color: #ee9b01;
 }
-.projects__item-button-container {
+.header__item-button-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
